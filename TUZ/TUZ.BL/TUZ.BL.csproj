@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TUZ.API\TUZ.API.csproj" />
+    <ProjectReference Include="..\TUZ.Entities\TUZ.Entities.csproj" />
+    <ProjectReference Include="..\TUZ.Model\TUZ.Model.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="TUZ.Presenter\obj\project.assets.json" />
+    <None Remove="TUZ.Presenter\obj\Debug\netstandard2.0\TUZ.Presenter.assets.cache" />
+    <None Remove="TUZ.Presenter\obj\Debug\netstandard2.0\TUZ.Presenter.assets.cache" />
+    <None Remove="TUZ.Presenter\obj\Debug\netstandard2.0\TUZ.Presenter.csprojAssemblyReference.cache" />
+  </ItemGroup>
+</Project>
