@@ -11,7 +11,7 @@ namespace TUZ.API.Tests
         public Train GenerateTrain()
         {
             // Init values
-            var hourOffset = _random.Next(0, 3);
+            var hourOffset = _random.Next(1, 4);
             var departure = DateTime.Now.AddHours(-hourOffset);
             var arrive = DateTime.Now.AddHours(hourOffset);
             var truckType = (TruckType) _random.Next(0, Enum.GetNames(typeof(TruckType)).Length - 1);

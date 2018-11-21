@@ -4,17 +4,17 @@ namespace TUZ.API.Tests
 {
     public class DataApiTests
     {
-        private readonly DataApiMock _mock;
+        private readonly IDataApi _api;
         
         public DataApiTests()
         {
-            _mock = new DataApiMock(new ApiDataGenerator());
+            _api = new DataApiMock(new ApiDataGenerator());
         }
         
         [Fact]
         public void Test()
         {
-            var data = _mock.GetData(null);
+            var data = _api.GetData(null);
         }
     }
 }
