@@ -75,7 +75,7 @@
       <Project>{49C11DC2-C4C8-4B42-A73B-C4F369F38222}</Project>
       <Name>TUZ.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TUZ.BL\TUZ.Presenter\TUZ.Presenter.csproj">
+    <ProjectReference Include="..\TUZ.Presenter\TUZ.Presenter.csproj">
       <Project>{9F62F462-1488-45F4-90BC-F205278E780B}</Project>
       <Name>TUZ.Presenter</Name>
     </ProjectReference>

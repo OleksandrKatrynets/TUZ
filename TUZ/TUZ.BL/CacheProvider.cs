@@ -9,7 +9,7 @@ namespace TUZ.BL
 
         public CacheProvider()
         {
-            _cache = new MemoryCache(new MemoryCacheOptions() { });
+            _cache = new MemoryCache(new MemoryCacheOptions());
         }
 
         public void Set<T>(string key, T value, DateTimeOffset absoluteExpiry)
